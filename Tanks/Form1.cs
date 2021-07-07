@@ -32,7 +32,7 @@ namespace Tanks
             Application.Exit();
         }
 
-        //таймер, задает движение игре, отрисовывает игру-очки-хп
+        //таймер, задает движение игре, отрисовывает игру-очки и т.п.
         private void timer2_Tick(object sender, EventArgs e)
         { 
             game.Update();
